@@ -4,7 +4,7 @@ using namespace std;
 const int N = 1e5;
 vector<int> graph[N];
 
-bool vis[N] = {};
+vector<bool> vis[N] = {false};
 
 //bool ans = false;
 
